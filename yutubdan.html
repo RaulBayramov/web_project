@@ -8,134 +8,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
     <link rel="stylesheet" href="stylesfor_yutubdan.css">
     <link rel="stylesheet" href="stylesfor_video_prew.css">
     <title>Responsive Navbar using HTML & CSS</title>
-
-
-
-    <!-- <style>
-        .thumbnail {
-            width: 100%;
-        }
-
-        .video-title {
-            margin-top: 0;
-            font-size: 14px;
-            font-weight: 500;
-            line-height: 20px;
-            margin-bottom: 10px;
-        }
-
-        .video-info-grid {
-            display: grid;
-            grid-template-columns: 50px 1fr;
-        }
-
-        .profile-picture {
-            width: 36px;
-
-            height: 36px;
-
-            border-radius: 50%;
-
-            object-fit: cover;
-
-        }
-
-        .thumbnail-row {
-            margin-bottom: 8px;
-            position: relative;
-        }
-
-        .video-author,
-        .video-stats {
-            font-size: 12px;
-            color: rgb(96, 96, 96);
-        }
-
-        .video-author {
-            margin-bottom: 4px;
-        }
-
-        .video-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            column-gap: 16px;
-            row-gap: 40px;
-        }
-
-        @media (max-width: 750px) {
-            .video-grid {
-                grid-template-columns: 1fr 1fr;
-            }
-        }
-
-        @media (min-width: 751px) and (max-width: 999px) {
-            .video-grid {
-                grid-template-columns: 1fr 1fr 1fr;
-            }
-        }
-
-        @media (min-width: 1000px) {
-            .video-grid {
-                grid-template-columns: 1fr 1fr 1fr 1fr;
-            }
-        }
-
-        .video-time {
-            font-size: 12px;
-            font-weight: 500;
-            padding: 4px;
-            border-radius: 2px;
-            background-color: black;
-            color: white;
-            position: absolute;
-            bottom: 8px;
-            right: 5px;
-        }
-
-        .video-preview {
-            box-shadow: 0 3px 5px rgba(0, 0, 0, 0.08);
-
-        }
-
-        .section-title {
-            font-size: 2em;
-            font-weight: bold;
-            text-align: center;
-            margin-bottom: 20px;
-            opacity: 0;
-            animation: fadeIn 1s ease-in-out forwards;
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(-20px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-    </style> -->
 </head>
 
 <body>
     <header class="header">
         <div class="left">
-            <img class="logo_picture" src="Screenshot 2024-05-23 220758.png" alt="Eğitim Platformu">
+            <img class="logo_picture" src="icons/Screenshot 2024-05-23 220758.png" alt="Eğitim Platformu">
         </div>
         <div class="section2">
             <input type="checkbox" id="nav_check" hidden>
             <nav>
                 <ul>
-                    <li><a href="#">Ana Sayfa</a></li>
+                    <li><a href="yutubdan.html">Ana Sayfa</a></li>
                     <li><a href="#">Hakkında</a></li>
                     <li><a href="#">Kurslar</a></li>
-                    <li><a href="#">İletişim</a></li>
+                    <li><a href="index.html">İletişim</a></li>
                 </ul>
             </nav>
             <label for="nav_check" class="hamburger">
@@ -157,10 +48,14 @@
 
     </header>
     <section class="hero">
-        <h1>Hoş Geldiniz!</h1>
+        <h2 style="color: white">Hoş Geldiniz!</h2>
         <p>En iyi online kurslar burada.</p>
-        <a href="#" class="cta-button">Kursları Keşfet</a>
+        <div class="button-container">
+            <a class="button-blue" href="#">Daha Fazla Bilgi</a>
+            <a class="button-yellow" href="#">Kursları Ziyaret Et</a>
+        </div>
     </section>
+
 
     <main>
         <div class="our_populars">
@@ -258,7 +153,28 @@
                 </div>
             </div>
         </section>
-
+        <!-- futures section -->
+        <section class="features">
+            <h1>Awesome Features</h1>
+            <p>Replenish man have thing gathering lights yielding shall you</p>
+            <div class="fea-base">
+                <div class="fea-box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Scholarship Facility</h3>
+                    <p>One make creepeth, man bearing theira firmanent won't great heaven</p>
+                </div>
+                <div class="fea-box">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Dell online course</h3>
+                    <p>One make creepeth, man bearing theira firmanent won't great heaven</p>
+                </div>
+                <div class="fea-box">
+                    <i class="fas fa-award"></i>
+                    <h3>Global Certification</h3>
+                    <p>One make creepeth, man bearing theira firmanent won't great heaven</p>
+                </div>
+            </div>
+        </section>
         <section class="services">
             <h2>Hizmetlerimiz</h2>
             <div class="service">
