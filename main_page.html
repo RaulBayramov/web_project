@@ -9,9 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
-    <link rel="stylesheet" href="stylesfor_yutubdan.css">
     <link rel="stylesheet" href="stylesfor_video_prew.css">
-    <title>Responsive Navbar using HTML & CSS</title>
+    <link rel="stylesheet" href="stylesfor_yutubdan.css">
+    <link rel="icon" href="icons/Screenshot 2024-05-23 220758.png" type="png">
+    <title>Tork/demo.ge</title>
 </head>
 
 <body>
@@ -23,10 +24,11 @@
             <input type="checkbox" id="nav_check" hidden>
             <nav>
                 <ul>
-                    <li><a href="yutubdan.html">Ana Sayfa</a></li>
-                    <li><a href="#">Hakkında</a></li>
-                    <li><a href="#">Kurslar</a></li>
-                    <li><a href="index.html">İletişim</a></li>
+                    <li><a href="main_page.html">Home</a></li>
+                    <li><a href="about_as.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="index.html">Contact</a></li>
+
                 </ul>
             </nav>
             <label for="nav_check" class="hamburger">
@@ -37,7 +39,7 @@
         </div>
         <div class="right-section">
             <div class="search-bar">
-                <input type="text" placeholder="Ara...">
+                <input type="text" placeholder="Search...">
             </div>
             <div class="login">
                 <button class="login_button" onclick="window.location.href='page_of_login.html';">Login</button>
@@ -48,12 +50,13 @@
 
     </header>
     <section class="hero">
-        <h2 style="color: white">Hoş Geldiniz!</h2>
-        <p>En iyi online kurslar burada.</p>
+        <h2>Welcome!</h2>
+        <p>The best online courses are here.</p>
         <div class="button-container">
-            <a class="button-blue" href="#">Daha Fazla Bilgi</a>
-            <a class="button-yellow" href="#">Kursları Ziyaret Et</a>
+            <a class="button-blue" href="about_as.html">Learn More</a>
+            <a class="button-yellow" href="courses.html">Visit Courses</a>
         </div>
+
     </section>
 
 
@@ -156,87 +159,91 @@
         <!-- futures section -->
         <section class="features">
             <h1>Awesome Features</h1>
-            <p>Replenish man have thing gathering lights yielding shall you</p>
+            <p>Discover the unique benefits and opportunities we offer to enhance your learning experience.</p>
             <div class="fea-base">
                 <div class="fea-box">
                     <i class="fas fa-graduation-cap"></i>
-                    <h3>Scholarship Facility</h3>
-                    <p>One make creepeth, man bearing theira firmanent won't great heaven</p>
+                    <h3>Scholarship Opportunities</h3>
+                    <p>Access to a variety of scholarships to support your educational journey and achieve your academic
+                        goals.</p>
                 </div>
                 <div class="fea-box">
                     <i class="fas fa-certificate"></i>
-                    <h3>Dell online course</h3>
-                    <p>One make creepeth, man bearing theira firmanent won't great heaven</p>
+                    <h3>Comprehensive Online Courses</h3>
+                    <p>Engage in detailed and interactive online courses that provide a thorough understanding of
+                        various subjects.</p>
                 </div>
                 <div class="fea-box">
                     <i class="fas fa-award"></i>
-                    <h3>Global Certification</h3>
-                    <p>One make creepeth, man bearing theira firmanent won't great heaven</p>
+                    <h3>Global Certifications</h3>
+                    <p>Earn globally recognized certifications that enhance your professional credentials and career
+                        prospects.</p>
                 </div>
             </div>
+
         </section>
         <section class="services">
-            <h2>Hizmetlerimiz</h2>
+            <h2>Our Services</h2>
             <div class="service">
-                <h3>Çeşitli Kurslar</h3>
-                <p>Geniş bir yelpazede kurs seçenekleri sunuyoruz.</p>
+                <h3>Various Courses</h3>
+                <p>We offer a wide range of course options.</p>
             </div>
             <div class="service">
-                <h3>Uzman Eğitmenler</h3>
-                <p>Alanında uzman eğitmenlerden ders alın.</p>
+                <h3>Expert Instructors</h3>
+                <p>Learn from expert instructors in their field.</p>
             </div>
             <div class="service">
-                <h3>Sertifikalar</h3>
-                <p>Kursları tamamladığınızda sertifika kazanın.</p>
+                <h3>Certifications</h3>
+                <p>Earn certifications upon completion of courses.</p>
             </div>
         </section>
 
         <section class="about">
-            <h2>Hakkımızda</h2>
-            <p>Eğitim platformumuz, öğrencilerin en iyi eğitimi alabilmeleri için kurulmuştur. Misyonumuz, kaliteli
-                eğitimi herkes için erişilebilir kılmaktır.</p>
+            <h2>About Us</h2>
+            <p>Our education platform is established to provide students with the best education possible. Our mission
+                is to make quality education accessible to everyone.</p>
         </section>
 
         <section class="blog">
-            <h2>Öne Çıkan Yazılar</h2>
+            <h2>Featured Articles</h2>
             <article>
-                <h3>Online Eğitimin Geleceği</h3>
-                <p>Online eğitim, günümüzde hızla büyüyen bir sektördür...</p>
-                <a href="#">Devamını Oku</a>
+                <h3>The Future of Online Education</h3>
+                <p>Online education is rapidly growing in today's world...</p>
+                <a href="#">Read More</a>
             </article>
             <article>
-                <h3>Verimli Ders Çalışma Yöntemleri</h3>
-                <p>Ders çalışırken verimliliği artırmak için bazı ipuçları...</p>
-                <a href="#">Devamını Oku</a>
+                <h3>Effective Study Techniques</h3>
+                <p>Tips to enhance productivity while studying...</p>
+                <a href="#">Read More</a>
             </article>
         </section>
-    </main>
 
-    <aside class="sidebar">
-        <h3>Popüler Kurslar</h3>
-        <ul>
-            <li><a href="#">Web Geliştirme</a></li>
-            <li><a href="#">Veri Bilimi</a></li>
-            <li><a href="#">Dijital Pazarlama</a></li>
-        </ul>
-        <h3>Sosyal Medya</h3>
-        <ul>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Instagram</a></li>
-        </ul>
-    </aside>
-
-    <footer>
-        <div class="footer-content">
-            <p>&copy; 2024 Eğitim Platformu. Tüm hakları saklıdır.</p>
+        <aside class="sidebar">
+            <h3>Popular Courses</h3>
             <ul>
-                <li><a href="#">Gizlilik Politikası</a></li>
-                <li><a href="#">Kullanım Şartları</a></li>
-                <li><a href="#">İletişim</a></li>
+                <li><a href="#">Web Development</a></li>
+                <li><a href="#">Data Science</a></li>
+                <li><a href="#">Digital Marketing</a></li>
             </ul>
-        </div>
-    </footer>
+            <h3>Social Media</h3>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </aside>
+
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2024 Education Platform. All rights reserved.</p>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </footer>
+
 </body>
 
 </html>
